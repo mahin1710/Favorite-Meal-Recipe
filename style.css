@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fffaf0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #4b3832;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background: #4b3832;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    background: #fff5e6;
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: #4b3832;
+    margin-bottom: 10px;
+}
