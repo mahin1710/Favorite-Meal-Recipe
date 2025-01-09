@@ -55,3 +55,55 @@ footer {
     color: #4b3832;
     margin-bottom: 10px;
 }
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.card-text .see-more {
+    color: #d9534f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Input Styles */
+.input-group {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-group input {
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #d9534f;
+    font-size: 1rem;
+}
+
+.input-group button {
+    border-radius: 0 10px 10px 0;
+    background-color: #d9534f;
+    color: white;
+    font-weight: bold;
+}
+
+/* Button Styles */
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+}
+
+.btn-outline-danger {
+    border: 2px solid #d9534f;
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.btn-outline-danger:hover {
+    background-color: #d9534f;
+    color: white;
+}
+
+/* Background and Layout */
+#mealResults .col-lg-4 {
+    margin-bottom: 15px;
+}
